@@ -3,7 +3,7 @@
 
 Linkedin Clone is a template for a Linkedin-like web page built using React JS. The project will focus on UI/UX design, state management, and dynamic content rendering.
 
-## Features
+## Key Features
 
 - Linkedin-like UI with a modern and professional design.
 - React state management to handle user interactions.
@@ -12,23 +12,30 @@ Linkedin Clone is a template for a Linkedin-like web page built using React JS. 
 - Dynamic posts feeds, users, and job listings from JSON.
 - Responsive design.
 
+## Tech stack used
+- Frontend: HTML, CSS, JavaScript, React, Bootstrap
+- Routing: React Router DOM
+- State Management: UseState, UseEffect
+- Local Storage: For likes, posts, user bio, connection persistence
+- Deployment: Netlify
+- Version control: GitHub
 
+  
 ## Installation & Setup
+
+### Create a New Project  
+->Install Node.js and npm on your system.  
 -> Create React Project using Vite method
 npm create vite@latest clone-app --template react
-
-- clone-app -> project name
-
-- --template react -> React template
-
+- clone-app (project name)
+- --template react (React template)
 - cd clone-app
-
-Install Dependencies
+Necessary Dependencies must be installed
 - npm Install
-
 Run and start react project
 - npm run dev
 
+## Overview of features and functionality of linkedin clone page
 ## Features & Functionality of Log in page 
 - Designed a clean login page of linkedin which includes sign in options "Continue with Google" and "Sign in with Apple".
 - Include email & password fields (have option to hide and show the password) with a login button.
@@ -118,3 +125,33 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 
 - Clicking the connections from another block of the page opens the another page of my-connection where the lists of peoples user has connected will show.
 - That page shows profile pic,name, profession and time when user get connected is shown.
+
+## Testing 
+Each modeules can be testing using jest library for rendering the components and updating state variables.
+
+### Unit Testing
+- Correctly rendering:
+   handleConnect to connect people on linkedin
+   handleSaveBio to save the bio of linkedin user
+   handleSaveJobPreferences to edit the job title and preferences of user
+   likes -> increases likes correctly
+   connections -> increases connection count
+
+- Mock API calls from JSON files
+  fetch("/people.json")
+  fetch("/user.json")
+  fetch("/posts.json")
+  fetch("/jobs.json")
+  
+### Integration Testing
+  using Navigation (useNavigate)
+  Interactions between different components:
+  ProfilePage interacting with Navbar
+  HomePage interacting with Navbar 
+
+### Deployment:
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https
+  
