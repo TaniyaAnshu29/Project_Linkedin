@@ -107,6 +107,7 @@ clone-app
 - validate local storage data
 
 ## 8. UI/UX Design of web page (Overview of features and functionality of linkedin clone page)
+
 ### Features & Functionality of Log in page 
 - Designed a clean login page of linkedin which includes sign in options "Continue with Google" and "Sign in with Apple".
 - Include email & password fields (have option to hide and show the password) with a login button.
@@ -152,8 +153,8 @@ On click of Profile(Me) icon
 - Below every post, there is icons for like, comment, repost and share.
 - On click of like button, it increases the count by 1 as value of count persist on local Storage. 
 - On click of comment icon, it open a comment section where user can write any comment on that particular post.
-
 - Right section shows the trendy news by fetching the data from <trendy.json>
+  
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/1e6eeb490b04e44a875d5654afc5d22b9dfd153c/Home%20Page%20LC.png)
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/ba85b92b05bab27ec1301e4996504d5406fa669f/Home%20Page%202%20LC.png)
 
@@ -165,8 +166,8 @@ On click of Profile(Me) icon
 - The left section display user’s name, profile picture, headline, and connections count, location. On the top right of left section, there is edit icon through which user can edit profile and can save their changes as details get stored on local storage.
 - On the same left section, there is open to work box where job title or preferences, and edit button are shown, On click of that edit button user can edit their job preferences or title and got saved on local storage.
 - On the below of left section, there is a block where user's posts with texts are shown, fetched by <posts.json>.
-
-- On the same profile page, there is a sidebar with "People You May Know". This sidebar consist of various users (with their name, profession, and connect button) fetched from <people.json> 
+- On the same profile page, there is a sidebar with "People You May Know". This sidebar consist of various users (with their name, profession, and connect button) fetched from <people.json>
+  
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%20LC.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%202%20LC.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%203%20LC.png)
@@ -197,9 +198,9 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 - In this page, there is two blocks for showing "my connections" and "people you may know".
 - In "people you may know" sidebar, it diplays the lists of people (with their profile pic, name, mutual connections) with connect button through which user can connect to them.
 - On click of "connect" button, it changed to "connected" button, the number of connection(in another block) get increases by one and get stored in local storage (my connection page).
-
 - Clicking the connections from another block of the page opens the another page of my-connection where the lists of peoples user has connected will show.
 - That page shows profile pic,name, profession and time when user get connected is shown.
+  
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%201.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%202.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%203.png)
@@ -250,5 +251,12 @@ git push -u origin
 ### Hosting
 - folder uploading on GitHup repository 
 - connect the repository in netlify
+## 11. Conclusion
+This project is a LinkedIn clone that replicates key features of the professional networking platform, offering navigation, job listings, user profiles, and networking functionalities. The login page includes sign-in options via Google, Apple, and email/password, with a password recovery feature. The navbar provides smooth navigation to Home, Jobs, Network, and Profile pages, along with a logout option. The home page features a user feed where posts, likes, comments, and shares are managed dynamically. The profile page allows users to edit their bio, update job preferences, and showcase their posts. The job listings section enables users to search, save, and view detailed job descriptions, while the networking page helps in building and managing professional connections. Data is fetched from JSON files, and local storage ensures persistence for likes, connections, and saved jobs. Implemented using React and React Router, this project delivers an interactive, scalable, and user-friendly experience.
+## 11. References
+- https://in.linkedin.com/
+- https://www.npmjs.com/
+- https://reactrouter.com/
+- https://fontawesome.com/
 ## 11. Demo
 
