@@ -76,6 +76,4 @@ On click of Profile(Me) icon
 - On click of comment icon, it open a comment section where user can write any comment on that particular post.
 
 - Right section shows the trendy news by fetching the data from <trendy.json>
-
-
-
+![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/1e6eeb490b04e44a875d5654afc5d22b9dfd153c/Home%20Page%20LC.png)
