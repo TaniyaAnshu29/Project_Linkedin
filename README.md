@@ -78,3 +78,14 @@ On click of Profile(Me) icon
 - Right section shows the trendy news by fetching the data from <trendy.json>
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/1e6eeb490b04e44a875d5654afc5d22b9dfd153c/Home%20Page%20LC.png)
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/ba85b92b05bab27ec1301e4996504d5406fa669f/Home%20Page%202%20LC.png)
+
+
+## Features and Functionality of User Profile Page
+
+- The profile page of any webpage shows the details or bio of user, where user itself can edit their bio in that page.
+- This page consist of two sections, left and right section.
+- The left section display user’s name, profile picture, headline, and connections count, location. On the top right of left section, there is edit icon through which user can edit profile and can save their changes as details get stored on local storage.
+- On the same left section, there is open to work box where job title or preferences, and edit button are shown, On click of that edit button user can edit their job preferences or title and got saved on local storage.
+- On the below of left section, there is a block where user's posts with texts are shown, fetched by <posts.json>.
+
+- On the same profile page, there is a sidebar with "People You May Know". This sidebar consist of various users (with their name, profession, and connect button) fetched from <people.json> 
