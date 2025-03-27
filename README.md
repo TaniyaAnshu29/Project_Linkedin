@@ -96,7 +96,7 @@ On click of Profile(Me) icon
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%205%20LC.png)
 
 
-## Features and Functionality of Job Listings Page
+## Features and Functionality of Job Listings Page & Job Detail page
 A Job Listing Page in a LinkedIn Clone allows users to search for job opportunities, view detailed job descriptions, and apply directly through the platform. It helps job seekers find relevant positions based on keywords, location, and industry. It also enabling recruiters to post job openings and connect with potential candidates. 
 
 - When the job icon on navbar is clicked, one more search bar get added to the navbar to filter jobs based on job title and location.
