@@ -1,5 +1,6 @@
 
 # React Project Using React JS
+## Project Description
 
 Linkedin Clone is a template for a Linkedin-like web page built using React JS. The project will focus on UI/UX design, state management, and dynamic content rendering.
 
@@ -10,6 +11,7 @@ Linkedin Clone is a template for a Linkedin-like web page built using React JS. 
 - React Router for seamless navigation.
 - Local Storage to persist like posts of various users in linkedin, likes of a post, saved job postings and saved job roles.
 - Dynamic posts feeds, users, and job listings from JSON.
+- jobs searched by job id.
 - Responsive design.
 
 ## Tech stack used
@@ -24,7 +26,7 @@ Linkedin Clone is a template for a Linkedin-like web page built using React JS. 
 ## Installation & Setup
 
 ### Create a New Project  
-->Install Node.js and npm on your system.  
+->Install Node.js and npm on the system.  
 -> Create React Project using Vite method
 npm create vite@latest clone-app --template react
 - clone-app (project name)
@@ -34,6 +36,36 @@ Necessary Dependencies must be installed
 - npm Install
 Run and start react project
 - npm run dev
+
+  
+## code structure
+
+
+
+## Coding standards 
+### state management:
+- useState() for local storage components
+- persistence in local storage
+### styling approach:
+- no use of inline styles
+- css and bootstrap grid
+### Error handling:
+- Handling API errors using fetching from json.
+- Handling local staorage errors
+
+  
+## Error handling
+### Handling API errors
+- project fetches data from JSON files like fetch("/people.json"), fetch("/user.json"). To prevent crashes.
+### Handling LocalStorage Errors
+- project relies on localStorage for saving user data like setUser, setConnections. If localStorage is unavailable, it might break functionality.
+
+### Handling Navigation Errors
+- using useNavigate() for avoiding incorrect path issues.
+
+## Debugging 
+- using console logs
+- validate local storage data
 
 ## Overview of features and functionality of linkedin clone page
 ## Features & Functionality of Log in page 
@@ -150,8 +182,23 @@ Each modeules can be testing using jest library for rendering the components and
   HomePage interacting with Navbar 
 
 ### Deployment:
+## Prerequisites
+- noje.js
+- npm
+- git installed
+- netlify account
+
+## Set up
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https
-  
+git remote add origin https://github.com/TaniyaAnshu29/Project_Linkedin
+git push -u origin 
+
+## create build
+- npm run build
+- dist folder created
+
+## Hosting
+- folder uploading on GitHup repository 
+- connect the repository in netlify
