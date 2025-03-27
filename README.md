@@ -62,3 +62,20 @@ On click of Profile(Me) icon
 - "/profile" -> <ProfilePage />
 
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/d43b818a064d59a06a46feed5aa21c50a39032ff/Screenshot%202025-03-27%20133649.png)
+
+## Features & Functionality of Home page
+- The home page consists of three section left, right and middle.
+
+- Left section shows the profile of user like profile pic, name, location, user's connections (fetched from <user.json>) and blocks of icons including saved items, groups, newsletter, events.
+
+- Middle section includes user's post section with profile pic where user can post on linkedin profile. The posts can be photo, video, any event and texts as shown in the icons.
+- Middle section also includes a posts section which shows the posts(text, images) of different users on linkedin with their profile pic, name amd profession and a follow button so that user can follow them.
+- The posts are fetched from <posts.json>.
+- Below every post, there is icons for like, comment, repost and share.
+- On click of like button, it increases the count by 1 as value of count persist on local Storage. 
+- On click of comment icon, it open a comment section where user can write any comment on that particular post.
+
+- Right section shows the trendy news by fetching the data from <trendy.json>
+
+
+
