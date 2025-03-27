@@ -106,3 +106,15 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 - On click of "save" button, it converted to "saved" and get stored in local storage.
 - On click of "View description" button from list, based on the job Id's, job list page linked to job details page and open a detailed job description modal, where the description of any of the selected jobs will displayed. 
 - Selected job displays the company logo and name, job title and location, "apply now" button, "save job" button, "About the job" section and all the detials are fetched from <jobs.json>.
+
+
+
+## Features & Functionality of Networking and Connections page
+
+"My Network" page helps users build and manage professional connections. This page allows users to send and accept connection requests, view their existing connections, and discover new professionals based on mutual interests. It enhances networking by suggesting relevant people, companies, and groups to follow.
+- In this page, there is two blocks for showing "my connections" and "people you may know".
+- In "people you may know" sidebar, it diplays the lists of people (with their profile pic, name, mutual connections) with connect button through which user can connect to them.
+- On click of "connect" button, it changed to "connected" button, the number of connection(in another block) get increases by one and get stored in local storage (my connection page).
+
+- Clicking the connections from another block of the page opens the another page of my-connection where the lists of peoples user has connected will show.
+- That page shows profile pic,name, profession and time when user get connected is shown.
