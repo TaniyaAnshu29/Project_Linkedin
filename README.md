@@ -61,4 +61,4 @@ On click of Jobs icon
 On click of Profile(Me) icon
 - "/profile" -> <ProfilePage />
 
-![image alt]()
+![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/d43b818a064d59a06a46feed5aa21c50a39032ff/Screenshot%202025-03-27%20133649.png)
