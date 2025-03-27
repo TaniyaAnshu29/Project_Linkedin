@@ -77,3 +77,4 @@ On click of Profile(Me) icon
 
 - Right section shows the trendy news by fetching the data from <trendy.json>
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/1e6eeb490b04e44a875d5654afc5d22b9dfd153c/Home%20Page%20LC.png)
+![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/ba85b92b05bab27ec1301e4996504d5406fa669f/Home%20Page%202%20LC.png)
