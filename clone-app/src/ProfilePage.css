@@ -1,0 +1,252 @@
+.user-profile-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.whole {
+  width: 100%;
+  max-width: 1200px;
+}
+.user-left-section {
+  flex: 2;
+  min-width: 300px;
+}
+.user-profile-block {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.profile-background {
+  background-color: #c6c8ca;
+  height: 200px;
+  position: relative;
+}
+.user-profile-picture-container {
+  position: absolute;
+  bottom: -70px;
+  left: 20px;
+}
+.user-profile-picture {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.profile-edit-icon, .job-edit-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #343333;
+  padding: 6px;
+  cursor: pointer;
+}
+.profile-edit-icon:hover, .job-edit-icon:hover {
+  background-color: #0a66c2;
+}
+.user-profile-details {
+  padding: 60px 20px 20px;
+  text-align: left;
+}
+.user-profile-details h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.user-profile-title {
+  font-size: 14px;
+  color: #555;
+}
+.user-profile-location, .user-profile-connections {
+  font-size: 13px;
+  color: #777;
+}
+.user-open-to-work {
+  background-color: #dedfe0;
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 7px;
+  margin: 10px 20px 20px;
+}
+.user-posts-section {
+  margin-top: 20px;
+}
+.user-posts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+.user-post-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.user-post-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.user-post-headline {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+.user-post-content {
+  padding: 0 10px 8px;
+  color: #555;
+  font-size: 12px;
+}
+.user-right-section {
+  flex: 1;
+  min-width: 280px;
+  max-width: 580px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.people-know {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.user-people-card {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+}
+.user-people-pic {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.user-people-info h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.user-people-info p {
+  color: #777;
+  font-size: 12px;
+}
+.user-connect-button {
+  background-color: white;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+  padding: 6px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.user-connect-button:hover {
+  background-color: #e6f1fb;
+}
+.user-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.user-modal form input[type="text"], .user-modal form input[type="checkbox"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.user-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+@media screen and (min-width: 1024px) {
+  .user-profile-container {
+    flex-direction: row;
+  }
+  .whole{
+    margin-top: 3050px;
+  }
+  .user-left-section {
+    width: 1000px;
+  }
+.user-right-section {
+  flex: 0.5;
+}
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .user-profile-container {
+    padding: 10px 20px;
+    flex-direction: column;
+    width: 900px;
+  }
+  .whole{
+    margin-top: 4300px;
+  }
+  .user-left-section, .user-right-section {
+    width: 100%;
+  }
+  user-right-section{
+    margin-left: 250px;
+  }
+  .user-people-card {
+    flex-direction: column;
+  }
+  .user-people-pic {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .user-profile-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 140px auto;
+    padding: 10px;
+  }
+  .whole{
+    margin-top: 4600px;
+  }
+  .user-profile-block {
+    text-align: center;
+  }
+  .profile-background {
+    height: 150px;
+  }
+  .user-profile-picture-container {
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .user-profile-picture {
+    width: 120px;
+    height: 120px;
+    margin-right: 300px;
+  }
+  .user-right-section {
+    width: 90%;
+    text-align: center;
+  }
+  .user-posts-list {
+    grid-template-columns: 1fr;
+  }
+}

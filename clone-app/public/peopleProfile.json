@@ -1,0 +1,11 @@
+[
+    { "id": 1, "name": "Liam Adams", "profilePicture": "/images/p1.jpeg", "mutualConnections": 13, "profession": "Software Engineer" },
+    { "id": 2, "name": "Isabel Turner", "profilePicture": "/images/p2.jpeg", "mutualConnections": 4, "profession": "Marketing Specialist" },
+    { "id": 3, "name": "Noah Scott", "profilePicture": "/images/p3.jpeg", "mutualConnections": 9, "profession": "Product Manager" },
+    { "id": 4, "name": "Amelia Carter", "profilePicture": "/images/p4.jpeg", "mutualConnections": 10, "profession": "Data Scientist" },
+    { "id": 5, "name": "Ethan Collins", "profilePicture": "/images/p5.jpeg", "mutualConnections": 3, "profession": "Graphic Designer" },
+    { "id": 6, "name": "Mia Ramirez", "profilePicture": "/images/p6.jpeg", "mutualConnections": 11, "profession": "UI/UX Designer" },
+    { "id": 7, "name": "William Sanch", "profilePicture": "/images/p7.jpeg", "mutualConnections": 8, "profession": "Sales Manager" },
+    { "id": 8, "name": "Harper Bell", "profilePicture": "/images/p8.jpeg", "mutualConnections": 5, "profession": "HR Specialist" },
+    { "id": 9, "name": "Benjamin Morr", "profilePicture": "/images/p9.jpeg", "mutualConnections": 6, "profession": "Marketing Manager" }
+]

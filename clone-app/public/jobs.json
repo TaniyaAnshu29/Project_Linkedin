@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "companyName": "Google",
+    "companyLogo": "https://logo.clearbit.com/google.com",
+    "followers": 15000000,
+    "jobTitle": "Senior Mobile Applications Developer with strong experience in Flutter",
+    "jobLocation": "White placard system Pvt. Ltd. Ranchi, Jharkhand, India(On-site)",
+    "followButton": "Follow",
+    "jobDescription": {
+      "experience": "5+ years",
+      "salary": "$100,000 - $150,000 / year",
+      "noticePeriod": "1 Month",
+      "shift": "Remote",
+      "placementType": "Full Time (40 hrs/week)",
+      "skills": [
+        "React.js",
+        "HTML/CSS",
+        "JavaScript",
+        "REST APIs",
+        "GraphQL",
+        "Redux",
+        "Agile Scrum"
+      ],
+      "jobSummary": "We are looking for an experienced Frontend Developer to join our team at Google. You will work on cutting-edge web applications and collaborate with backend engineers to improve the overall user experience.",
+      "responsibilities": [
+        "Develop highly responsive web applications using React.js.",
+        "Work with UX/UI designers to implement intuitive user interfaces.",
+        "Integrate with backend APIs and improve web performance.",
+        "Write clean, scalable, and efficient code following best practices.",
+        "Participate in Agile ceremonies and peer code reviews."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "companyName": "Microsoft",
+    "companyLogo": "https://logo.clearbit.com/microsoft.com",
+    "followers": 12000000,
+    "jobTitle": "Software Engineer Senior Mobile Applications Developer with strong experience",
+    "jobLocation": "Redmond, Clothing Tech LLC a Hexagon joint venture. India(Remote)",
+    "followButton": "Follow",
+    "jobDescription": {
+      "experience": "3+ years",
+      "salary": "$90,000 - $140,000 / year",
+      "noticePeriod": "Immediate joiner preferred",
+      "shift": "On-site",
+      "placementType": "Full Time",
+      "skills": [
+        "C#",
+        "ASP.NET Core",
+        "Azure",
+        "Docker",
+        "Microservices",
+        "SQL Server"
+      ],
+      "jobSummary": "Microsoft is seeking a skilled Software Engineer to work on backend services and distributed systems for our cloud platform. This role involves designing and implementing REST APIs, working on microservices architecture, and optimizing backend performance.",
+      "responsibilities": [
+        "Develop and maintain cloud-based services using ASP.NET Core.",
+        "Optimize and scale existing APIs and microservices.",
+        "Collaborate with frontend developers, product managers, and QA engineers.",
+        "Write unit and integration tests for backend services.",
+        "Monitor and troubleshoot production issues."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "companyName": "Amazon",
+    "companyLogo": "https://logo.clearbit.com/amazon.com",
+    "followers": 20000000,
+    "jobTitle": "UI/UX Designer Design, build and configure applications to meet business process",
+    "jobLocation": "Kolkata, West Bengal, India(Remote)",
+    "followButton": "Follow",
+    "jobDescription": {
+      "experience": "4+ years",
+      "salary": "$85,000 - $130,000 / year",
+      "noticePeriod": "2 Weeks",
+      "shift": "Hybrid",
+      "placementType": "Full Time",
+      "skills": [
+        "UI/UX Design",
+        "Figma",
+        "Adobe XD",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing"
+      ],
+      "jobSummary": "Join Amazon's design team as a UI/UX Designer and help us create seamless user experiences for millions of customers worldwide. You will be involved in every stage of the design process, from research to final delivery.",
+      "responsibilities": [
+        "Create wireframes, prototypes, and high-fidelity mockups.",
+        "Conduct user research and usability testing.",
+        "Collaborate with developers to implement pixel-perfect designs.",
+        "Define and maintain design guidelines and best practices.",
+        "Participate in design reviews and provide constructive feedback."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "companyName": "Facebook",
+    "companyLogo": "https://logo.clearbit.com/facebook.com",
+    "followers": 18000000,
+    "jobTitle": "React Developer, Senior Mobile Applications Developer with strong experience",
+    "jobLocation": "Redmond, Clothing Tech LLC a Hexagon joint venture. India(Remote)",
+    "followButton": "Follow",
+    "jobDescription": {
+      "experience": "3+ years",
+      "salary": "$95,000 - $140,000 / year",
+      "noticePeriod": "1 Month",
+      "shift": "On-site",
+      "placementType": "Full Time",
+      "skills": [
+        "React.js",
+        "Redux",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Webpack"
+      ],
+      "jobSummary": "Meta (formerly Facebook) is hiring a React Developer to build and enhance our frontend web applications. This position will focus on building reusable components and optimizing application performance.",
+      "responsibilities": [
+        "Develop reusable React components and front-end libraries.",
+        "Ensure cross-browser compatibility and responsive design.",
+        "Optimize applications for performance and scalability.",
+        "Work closely with backend engineers and UI designers.",
+        "Stay up-to-date with the latest web development trends and technologies."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "companyName": "Apple",
+    "companyLogo": "https://logo.clearbit.com/apple.com",
+    "followers": 22000000,
+    "jobTitle": "iOS Enginee, Software Engineer Senior Mobile Applications Developer",
+    "jobLocation": "Kolkata, West Bengal, India(Remote)",
+    "followButton": "Follow",
+    "jobDescription": {
+      "experience": "5+ years",
+      "salary": "$110,000 - $160,000 / year",
+      "noticePeriod": "2 Weeks",
+      "shift": "On-site",
+      "placementType": "Full Time",
+      "skills": [
+        "Swift",
+        "Objective-C",
+        "iOS SDK",
+        "Xcode",
+        "Cocoa Touch",
+        "Core Data"
+      ],
+      "jobSummary": "Apple is seeking a talented iOS Engineer to develop cutting-edge iOS applications for the App Store. You will work on building intuitive and engaging mobile experiences for millions of Apple users.",
+      "responsibilities": [
+        "Design and build advanced iOS applications.",
+        "Collaborate with cross-functional teams to define and implement new features.",
+        "Write clean, maintainable, and testable code.",
+        "Optimize application performance and fix bugs.",
+        "Participate in code reviews and provide feedback."
+      ]
+    }
+  }
+  
+]

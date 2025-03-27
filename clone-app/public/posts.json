@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "userName": "Akshay R Verma",
+    "userProfilePic": "/images/one.jpeg",
+    "profession": "Software Engineer",
+    "content": "Excited to share that I’ve just completed a new project using React.js! 🚀",
+    "image": "/images/post1.png",
+    "likes": 10,
+    "comments": [
+      { "user": "John Doe", "text": "Great work, Akshay!" },
+      { "user": "Jane Smith", "text": "Congrats on the achievement!" }
+    ]
+  },
+  {
+    "id": 2,
+    "userName": "John Doe",
+    "userProfilePic": "/images/two.jpeg",
+    "profession": "Frontend Developer",
+    "content": "Loving the new features in React 18. Have you tried Concurrent Mode yet? 🔥",
+    "likes": 5,
+    "image": "/images/post2.jpeg",
+    "comments": []
+  },
+  {
+    "id": 3,
+    "userName": "Jane Smith",
+    "userProfilePic": "/images/three.jpeg",
+    "profession": "UI/UX Designer",
+    "content": "Just attended an amazing webinar on UI/UX design. Key takeaway: Keep it simple and user-friendly!",
+    "image": "/images/post3.jpeg",
+    "likes": 8,
+    "comments": [
+      { "user": "Akshay R Verma", "text": "UI/UX is so important!" }
+    ]
+  }
+]

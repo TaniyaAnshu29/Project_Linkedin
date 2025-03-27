@@ -1,0 +1,175 @@
+.connectionsPage-container {
+  margin-top: 20px;
+  padding: 20px;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.connectionsList-box {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  width: 75%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.connectionsList-header {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 3px;
+  color: #333;
+  font-weight: lighter;
+  margin-left: 6px;
+}
+.connectionsList-noConnections {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+.connectionsList-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.connectionsList-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+.connectionsList-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.connectionsList-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.connectionsList-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
+}
+.connectionsList-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1px;
+}
+.connectionsList-profession, .connectionsList-timestamp {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 0;
+}
+.connectionsList-messageBtn {
+  background-color: white;
+  color: #0073b1;
+  border: 1px solid #0073b1;
+  padding: 7px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.connectionsList-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.connectionsPage-rightSection {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.connectionsPage-rightImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+  .connectionsPage-container {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 900px
+  }
+  .connectionsList-box {
+    width: 100%;
+    padding: 12px;
+  }
+  .connectionsPage-rightSection {
+    display: none; /* Hide right section on mobile */
+  }
+  .connectionsList-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+  }
+  .connectionsList-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .connectionsList-messageBtn {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .connectionsPage-container {
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+  }
+  .connectionsList-box {
+    width: 90%;
+  }
+  .connectionsPage-rightSection {
+    width: 100%;
+    height: auto;
+  }
+  .connectionsList-item {
+    padding: 10px 15px;
+  }
+  .connectionsList-avatar {
+    width: 65px;
+    height: 65px;
+  }
+  .connectionsList-messageBtn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .connectionsPage-container {
+    margin-top: 150px;
+    width: 100%;
+    padding: 20px;
+  }
+  .connectionsList-box {
+    width: 80%;
+  }
+  .connectionsPage-rightSection {
+    width: 350px;
+  }
+  .connectionsList-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  .connectionsList-messageBtn {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+}
