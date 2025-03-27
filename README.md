@@ -253,10 +253,10 @@ git push -u origin
 - connect the repository in netlify
 ## 11. Conclusion
 This project is a LinkedIn clone that replicates key features of the professional networking platform, offering navigation, job listings, user profiles, and networking functionalities. The login page includes sign-in options via Google, Apple, and email/password, with a password recovery feature. The navbar provides smooth navigation to Home, Jobs, Network, and Profile pages, along with a logout option. The home page features a user feed where posts, likes, comments, and shares are managed dynamically. The profile page allows users to edit their bio, update job preferences, and showcase their posts. The job listings section enables users to search, save, and view detailed job descriptions, while the networking page helps in building and managing professional connections. Data is fetched from JSON files, and local storage ensures persistence for likes, connections, and saved jobs. Implemented using React and React Router, this project delivers an interactive, scalable, and user-friendly experience.
-## 11. References
+## 12. References
 - https://in.linkedin.com/
 - https://www.npmjs.com/
 - https://reactrouter.com/
 - https://fontawesome.com/
-## 11. Demo
+## 13. Demo
 
