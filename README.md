@@ -38,9 +38,49 @@ Run and start react project
 - npm run dev
 
   
-## code structure
+### code structure
 
-
+clone-app
+│── .gitignore
+│── eslint.config.js
+│── index.html
+│── package-lock.json
+│── package.json
+│── README.md
+│── vite.config.js
+│
+├── public
+│   │── vite.svg
+│   ├── images/
+│   ├── AnotherUser.json
+│   ├── jobs.json
+│   ├── people.json
+│   ├── peopleProfile.json
+│   ├── posts.json
+│   ├── trendy.json
+│   ├── user.json
+│
+├── src
+│   ├── assets/
+│   ├── App.jsx
+│   ├── Connections.css
+│   ├── Connections.jsx
+│   ├── HomePage.css
+│   ├── HomePage.jsx
+│   ├── JobDetails.css
+│   ├── JobDetails.jsx
+│   ├── JobPage.css
+│   ├── JobPage.jsx
+│   ├── LoginPage.css
+│   ├── LoginPage.jsx
+│   ├── main.jsx
+│   ├── MyNetwork.css
+│   ├── MyNetwork.jsx
+│   ├── Navbar.css
+│   ├── Navbar.jsx
+│   ├── NewNavbar.css
+│
+└── node_modules/
 
 ## Coding standards 
 ### state management:
@@ -202,3 +242,4 @@ git push -u origin
 ## Hosting
 - folder uploading on GitHup repository 
 - connect the repository in netlify
+## Demo
