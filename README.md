@@ -94,3 +94,15 @@ On click of Profile(Me) icon
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%203%20LC.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%204%20LC.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%205%20LC.png)
+
+
+## Features and Functionality of Job Listings Page
+A Job Listing Page in a LinkedIn Clone allows users to search for job opportunities, view detailed job descriptions, and apply directly through the platform. It helps job seekers find relevant positions based on keywords, location, and industry. It also enabling recruiters to post job openings and connect with potential candidates. 
+
+- When the job icon on navbar is clicked, one more search bar get added to the navbar to filter jobs based on job title and location.
+- So, one search bar is based on job title while another one is based on job location.
+- It shows the lists of Jobs ("Jobs Picks for You") that are fetched from <jobs.json>.
+- Each job cards include company's logo and name, job title and location with save and description button.
+- On click of "save" button, it converted to "saved" and get stored in local storage.
+- On click of "View description" button from list, based on the job Id's, job list page linked to job details page and open a detailed job description modal, where the description of any of the selected jobs will displayed. 
+- Selected job displays the company logo and name, job title and location, "apply now" button, "save job" button, "About the job" section and all the detials are fetched from <jobs.json>.
