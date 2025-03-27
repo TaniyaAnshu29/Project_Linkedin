@@ -89,3 +89,8 @@ On click of Profile(Me) icon
 - On the below of left section, there is a block where user's posts with texts are shown, fetched by <posts.json>.
 
 - On the same profile page, there is a sidebar with "People You May Know". This sidebar consist of various users (with their name, profession, and connect button) fetched from <people.json> 
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%20LC.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%202%20LC.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%203%20LC.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%204%20LC.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/c1ec563239e185b4845d8c7f30764609782d7ea8/Profile%205%20LC.png)
