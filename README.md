@@ -39,3 +39,26 @@ Run and start react project
 - Screen Shot of Log in page
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/524b7f4f544aadf35e18dc31701eeaea50012bf4/Screenshot%202025-03-27%20123118.png)
 
+
+## Features & Functionality of Navbar of linkedin page
+
+A navigation bar (navbar) is an important element in every webpages, as it helps users easily navigate through different sections of a website.
+
+- linkedin-like navbar includes linkedin logo, search text for jobs, skills and companies, icons like home, my network, jobs, messaging, notifications, Me profile, Work and logout button.
+
+On click of Logout Button, it navigate to Login page.
+- "/" -> <LoginPage />
+
+On click of sign in or home icon
+- "/home" -> <HomePage />
+
+On click of network icon
+- "/my-network" -> <MyNetwork />
+
+On click of Jobs icon
+- "/jobs" -> <JobPage />
+
+On click of Profile(Me) icon
+- "/profile" -> <ProfilePage />
+
+![image alt]()
