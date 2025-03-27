@@ -185,8 +185,12 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 - On click of "save" button, it converted to "saved" and get stored in local storage.
 - On click of "View description" button from list, based on the job Id's, job list page linked to job details page and open a detailed job description modal, where the description of any of the selected jobs will displayed. 
 - Selected job displays the company logo and name, job title and location, "apply now" button, "save job" button, "About the job" section and all the detials are fetched from <jobs.json>.
-
-
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%201.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%202.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%203.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%204.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%205.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Job%20List%206.png)
 
 ## Features & Functionality of Networking and Connections page
 
@@ -197,7 +201,11 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 
 - Clicking the connections from another block of the page opens the another page of my-connection where the lists of peoples user has connected will show.
 - That page shows profile pic,name, profession and time when user get connected is shown.
-
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%201.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%202.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%203.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%204.png)
+![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/06eb0b521ba6175cb25bff180aa0f7ef92c6cab2/Network%205.png)
 ## Testing 
 Each modeules can be testing using jest library for rendering the components and updating state variables.
 
