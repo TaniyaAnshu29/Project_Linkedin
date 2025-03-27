@@ -1,10 +1,10 @@
 
 # React Project Using React JS
-## Project Description
+## 1. Project Description
 
-Linkedin Clone is a template for a Linkedin-like web page built using React JS. The project will focus on UI/UX design, state management, and dynamic content rendering.
+Linkedin Clone is a template for a Linkedin-like web page built using React JS. LinkedIn is the biggest professional networking platform on the internet. It helps people find jobs or internships, connect with others in their industry, and learn new skills to grow their careers. The project will focus on UI/UX design, state management, and dynamic content rendering.
 
-## Key Features
+## 2. Key Features
 
 - Linkedin-like UI with a modern and professional design.
 - React state management to handle user interactions.
@@ -14,7 +14,7 @@ Linkedin Clone is a template for a Linkedin-like web page built using React JS. 
 - jobs searched by job id.
 - Responsive design.
 
-## Tech stack used
+## 3. Tech stack used
 - Frontend: HTML, CSS, JavaScript, React, Bootstrap
 - Routing: React Router DOM
 - State Management: UseState, UseEffect
@@ -23,7 +23,7 @@ Linkedin Clone is a template for a Linkedin-like web page built using React JS. 
 - Version control: GitHub
 
   
-## Installation & Setup
+## 4. Installation & Setup
 
 ### Create a New Project  
 ->Install Node.js and npm on the system.  
@@ -37,8 +37,7 @@ Necessary Dependencies must be installed
 Run and start react project
 - npm run dev
 
-  
-### code structure
+## 5. code structure
 
 clone-app
 │── .gitignore
@@ -82,7 +81,7 @@ clone-app
 │
 └── node_modules/
 
-## Coding standards 
+## 6. Coding standards 
 ### state management:
 - useState() for local storage components
 - persistence in local storage
@@ -94,7 +93,7 @@ clone-app
 - Handling local staorage errors
 
   
-## Error handling
+## 7. Error handling
 ### Handling API errors
 - project fetches data from JSON files like fetch("/people.json"), fetch("/user.json"). To prevent crashes.
 ### Handling LocalStorage Errors
@@ -107,8 +106,8 @@ clone-app
 - using console logs
 - validate local storage data
 
-## Overview of features and functionality of linkedin clone page
-## Features & Functionality of Log in page 
+## 8. UI/UX Design of web page (Overview of features and functionality of linkedin clone page)
+### Features & Functionality of Log in page 
 - Designed a clean login page of linkedin which includes sign in options "Continue with Google" and "Sign in with Apple".
 - Include email & password fields (have option to hide and show the password) with a login button.
 - Have option in case forgot password
@@ -206,7 +205,8 @@ A Job Listing Page in a LinkedIn Clone allows users to search for job opportunit
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%203.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/a06a4901cfe99a93c40c9bca8a66b70758852ae4/Network%204.png)
 ![images alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/06eb0b521ba6175cb25bff180aa0f7ef92c6cab2/Network%205.png)
-## Testing 
+
+## 9. Testing 
 Each modeules can be testing using jest library for rendering the components and updating state variables.
 
 ### Unit Testing
@@ -229,25 +229,26 @@ Each modeules can be testing using jest library for rendering the components and
   ProfilePage interacting with Navbar
   HomePage interacting with Navbar 
 
-### Deployment:
-## Prerequisites
+## 10. Deployment:
+### Prerequisites
 - noje.js
 - npm
 - git installed
 - netlify account
 
-## Set up
+### Set up
 git init
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/TaniyaAnshu29/Project_Linkedin
 git push -u origin 
 
-## create build
+### create build
 - npm run build
 - dist folder created
 
-## Hosting
+### Hosting
 - folder uploading on GitHup repository 
 - connect the repository in netlify
-## Demo
+## 11. Demo
+
