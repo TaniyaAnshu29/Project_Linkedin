@@ -47,19 +47,19 @@ A navigation bar (navbar) is an important element in every webpages, as it helps
 - linkedin-like navbar includes linkedin logo, search text for jobs, skills and companies, icons like home, my network, jobs, messaging, notifications, Me profile, Work and logout button.
 
 On click of Logout Button, it navigate to Login page.
-- "/" -> <LoginPage>
+- "/" -> LoginPage
 
 On click of sign in or home icon
-- "/home" -> <HomePage>
+- "/home" -> HomePage
 
 On click of network icon
-- "/my-network" -> <MyNetwork>
+- "/my-network" -> MyNetwork
 
 On click of Jobs icon
-- "/jobs" -> <JobPage>
+- "/jobs" -> JobPage
 
 On click of Profile(Me) icon
-- "/profile" -> <ProfilePage>
+- "/profile" -> ProfilePage
 
 ![image alt](https://github.com/TaniyaAnshu29/Project_Linkedin/blob/d43b818a064d59a06a46feed5aa21c50a39032ff/Screenshot%202025-03-27%20133649.png)
 
