@@ -259,4 +259,4 @@ This project is a LinkedIn clone that replicates key features of the professiona
 - https://reactrouter.com/
 - https://fontawesome.com/
 ## 13. Demo
-
+https://lively-basbousa-5a5257.netlify.app/
